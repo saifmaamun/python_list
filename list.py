@@ -9,11 +9,3 @@ print(list3)
 list4 = list(("hi", 120, "x70", 5.90))
 print(list4)
 
-list4[1]= 420
-list4[-1]= "akash"
-print(list4)
-print(len(list4))
-list4.append("hasina")
-list2.pop()
-
-print(list2)
