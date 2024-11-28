@@ -16,10 +16,19 @@
 # print(l2)
 
 # concatenate all integer
-l1=[1,6,8,7,6]
-n=[]
-l=''
-for x in l1:
-    l+=str(x)
+# l1=[1,6,8,7,6]
+# n=[]
+# l=''
+# for x in l1:
+#     l+=str(x)
+#
+# print(int(l))
 
-print(int(l))
+# overlaping list elements
+l1=[10,5,3,6,9,7]
+l2=[5,6,4,1,20,3,9]
+l3=[]
+for x in l1:
+    if x in l2:
+        l3.append(x)
+print(l3)
