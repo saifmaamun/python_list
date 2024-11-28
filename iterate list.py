@@ -33,3 +33,16 @@ for i in range(-1, -(len(list1)+1),-1):
 # 5
 # 98
 # 45
+
+
+i =0
+while i < len(list1):
+    print(list1[i])
+    i+=1
+# output
+# 45
+# 98
+# 5
+# 40
+# 9.8
+# amir
