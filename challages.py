@@ -34,10 +34,17 @@
 # print(l3)
 
 # most occuring item in list
-l1=["a", "d", "e", "a", "c", 'e', 'f', 'd', 'a']
-result=[]
+# l1=["a", "d", "e", "a", "c", 'e', 'f', 'd', 'a']
+# result=[]
+#
+# for x in l1:
+#     if (x,l1.count(x)) not in result:
+#         result.append((x,l1.count(x)))
+# print(result[0])
 
+# find the words starts with given letter
+l1=["asda", "dsds","rerer", "masda","raskjd", "dkjlk"]
+letter= input("enter a letter: ")
 for x in l1:
-    if (x,l1.count(x)) not in result:
-        result.append((x,l1.count(x)))
-print(result[0])
+    if x[0]==letter:
+        print(x)
