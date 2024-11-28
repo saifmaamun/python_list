@@ -25,10 +25,19 @@
 # print(int(l))
 
 # overlaping list elements
-l1=[10,5,3,6,9,7]
-l2=[5,6,4,1,20,3,9]
-l3=[]
+# l1=[10,5,3,6,9,7]
+# l2=[5,6,4,1,20,3,9]
+# l3=[]
+# for x in l1:
+#     if x in l2:
+#         l3.append(x)
+# print(l3)
+
+# most occuring item in list
+l1=["a", "d", "e", "a", "c", 'e', 'f', 'd', 'a']
+result=[]
+
 for x in l1:
-    if x in l2:
-        l3.append(x)
-print(l3)
+    if (x,l1.count(x)) not in result:
+        result.append((x,l1.count(x)))
+print(result[0])
